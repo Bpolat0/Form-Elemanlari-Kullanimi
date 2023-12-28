@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div>
+          <label for="firstName">Adınız:</label>
+          <input type="text" id="firstName" name="firstName">
+        </div>
+        <div>
+          <label for="lastName">Soyadınız:</label>
+          <input type="text" id="lastName" name="lastName">
+        </div>
+        <div>
+          <label for="email">E-posta Adresiniz:</label>
+          <input type="email" id="email" name="email">
+        </div>
+        <div>
+          <label for="password">Parolanız:</label>
+          <input type="password" id="password" name="password">
+        </div>
+        <div>
+          <span>Cinsiyetiniz:</span>
+          <label for="male">Erkek</label>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="female">Kadın</label>
+          <input type="radio" id="female" name="gender" value="female">
+        </div>
+        <div>
+          <label for="favoriteFruit">Favori Meyveniz:</label>
+          <select id="favoriteFruit" name="favoriteFruit">
+            <option value="elma">Elma</option>
+            <option value="muz">Muz</option>
+            <option value="çilek">Çilek</option>
+          </select>
+        </div>
+        <div>
+          <label for="message">Mesajınız:</label>
+          <textarea id="message" name="message" rows="4" cols="50"></textarea>
+        </div>
+        <div>
+          <input type="submit" value="Gönder">
+        </div>
+      </form>
+</body>
+</html>
